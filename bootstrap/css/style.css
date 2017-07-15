@@ -1,0 +1,52 @@
+@font-face {
+			font-family: "ArvoRegular";
+			src: url("../fonts/ArvoRegular.woff") format("woff");
+			font-style: normal;
+			font-weight: normal;
+	}
+body{
+	background-color: #f3f5f7;
+	font-family: "ArvoRegular";
+	color:#3b3f6a;
+	
+}
+
+.advantages{
+	font-size: 30px;
+	margin: 61px 0px;
+}
+.card h4{
+	font-size: 22px;
+
+}
+.card_img{
+	height: 200px;
+}
+.card p{
+	font-family: 'Noto Sans', sans-serif; 
+	font-size: 20px;
+	color:#686c8a;
+	margin-top: 17px;
+}
+/*@media only screen and (max-width : 993px) {
+	.advantages{
+	font-size: 30px;
+	margin: 31px 0px;
+}
+.card h4{
+	font-size: 15px!important;
+
+}
+.card_img{
+	height: 180px;
+}
+.card p{
+	font-size: 20px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.card{
+
+}
+}*/
+
