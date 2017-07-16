@@ -15,38 +15,22 @@ body{
 	font-size: 30px;
 	margin: 61px 0px;
 }
-.card h4{
-	font-size: 22px;
-
+.card{
+	min-height: 355px;
 }
 .card_img{
 	height: 200px;
+}
+.card h4{
+	font-size: 22px;
+	height:30px;
+
 }
 .card p{
 	font-family: 'Noto Sans', sans-serif; 
 	font-size: 20px;
 	color:#686c8a;
-	margin-top: 17px;
+	margin-bottom: 60px;
+	margin-top: 33px;
 }
-/*@media only screen and (max-width : 993px) {
-	.advantages{
-	font-size: 30px;
-	margin: 31px 0px;
-}
-.card h4{
-	font-size: 15px!important;
-
-}
-.card_img{
-	height: 180px;
-}
-.card p{
-	font-size: 20px;
-	margin-top: 10px;
-	padding-bottom: 10px;
-}
-.card{
-
-}
-}*/
 
