@@ -1,0 +1,193 @@
+/*Basic settings*/
+html {
+  font-size: 10px;
+}
+body {
+  color: #202242;
+}
+/*fonts*/
+@font-face {
+  font-family: 'Rockwell MT';
+  src: url('../fonts/RockwellMT.eot');
+  src: url('../fonts/RockwellMT.eot?#iefix') format('embedded-opentype'), url('../fonts/RockwellMT.woff2') format('woff2'), url('../fonts/RockwellMT.woff') format('woff'), url('../fonts/RockwellMT.ttf') format('truetype'), url('../fonts/RockwellMT.svg#RockwellMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*fonts mixin*/
+.reg {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.semi {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.header-font {
+  font-family: "Rockwell MT";
+  font-weight: bold;
+}
+.header-font-normal {
+  font-family: "Rockwell MT";
+  font-weight: normal;
+}
+/*color mixins*/
+/*header styles*/
+header {
+  height: 100vh;
+  min-height: 60rem;
+  background: url(../img/bg_1.jpg) no-repeat center center;
+  background-size: cover;
+}
+.header-top-block {
+  background-color: #fff;
+  height: 11rem;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.header-logo {
+  height: 100%;
+  line-height: 11rem;
+}
+.header-logo img {
+  vertical-align: middle;
+}
+.header-logo span {
+  font-family: "Rockwell MT";
+  font-weight: normal;
+  font-size: 2rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+.header-nav {
+  border-right: 1px solid rgba(164, 164, 164, 0.1);
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  text-align: center;
+  height: 11rem;
+  line-height: 11rem;
+}
+.header-nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.header-nav li a {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #202242;
+}
+.header-nav li a:hover {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #ffe13e;
+}
+.header-nav li.item-active a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #ffe13e;
+}
+.header-callback {
+  text-align: center;
+}
+.header-callback_text p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.header-callback_btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-right: 4rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  background-color: #ffe13e;
+  color: #202242;
+}
+.header-callback_btn:hover {
+  text-decoration: none;
+  background-color: rgba(255, 225, 62, 0.7);
+  color: #202242;
+}
+.header-callback_phone {
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding-left: 2rem;
+  color: #202242;
+  border-left: 2px solid rgba(164, 164, 164, 0.1);
+}
+.header-callback_phone:hover {
+  text-decoration: none;
+  color: #ffe13e;
+}
+.header-text-block {
+  padding-top: 10%;
+  text-align: center;
+  color: #ffffff;
+}
+.header-text-block h1 {
+  font-family: "Rockwell MT";
+  font-weight: normal;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: .2rem;
+}
+.header-text-block p {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.header-main-img {
+  margin-top: 2rem;
+}
+.main-form-block {
+  padding-top: 2rem;
+  width: 50rem;
+  height: 9rem;
+  margin: 4rem auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.main-form-input {
+  display: inline-block;
+  background-color: #fff;
+  padding: 1rem;
+  height: 5rem;
+  vertical-align: middle;
+  margin-right: -4px;
+  border: none;
+  widows: 40%;
+}
+.main-form-btn {
+  display: inline-block;
+  background-color: #ffe13e;
+  color: #fff;
+  height: 5rem;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.main-form-btn:hover {
+  background-color: rgba(255, 225, 62, 0.7);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.input-addon {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  background-color: #ffe13e;
+  height: 5rem;
+  width: 8rem;
+  line-height: 5rem;
+  margin-right: -3px;
+  vertical-align: middle;
+}
