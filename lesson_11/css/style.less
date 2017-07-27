@@ -1,0 +1,76 @@
+body{
+	background-color: #8B8386;
+}
+.trs(@property: all; @time:0.2s) {
+	-webkit-transition: @property @time;
+	-o-transition: @property @time;
+	transition: @property @time;
+}
+.box_1{
+	background: url(../img/foto-1.jpg) no-repeat center center;
+}
+.box_2{
+	background: url(../img/foto-2.jpg) no-repeat center center;
+	.wrap{
+		&:hover{
+			transform: translate3d(0, -30px, 0);
+		}
+	}
+}
+.box_3{
+	background: url(../img/foto-3.jpg) no-repeat center center;
+	.wrap{
+		&:hover{
+			-webkit-transform: scale(1.5);
+			-ms-ransform: scale(1.5);
+			transform: scale(1.5);
+		}
+	}
+
+}
+.box_4{
+	background: url(../img/foto-4.jpg) no-repeat center center;
+	&:hover{
+		background-size: 500px 500px;
+		
+	}
+}
+.box{
+	width: 285px;
+	height: 300px;
+	margin-right: 3rem;
+	margin-top: 5rem;
+	background-size: cover;
+	font-size: 30px;
+	text-transform: uppercase;
+	overflow: hidden;
+}	
+.wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color: #fff;
+	.trs(all;0.9s);
+	opacity: 0;
+	&:hover{
+			background-color: rgba(0,0,0,.6);
+			opacity: 1;
+
+	}
+	
+}
+.sign{
+	text-align: center;
+	a{
+		display: block;
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px;
+		border: 2px solid #fff;
+		&:hover{
+			.trs(all;1s);
+			background-color: #000;
+		}
+	}
+}
