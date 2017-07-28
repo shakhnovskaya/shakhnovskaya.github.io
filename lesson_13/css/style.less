@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'Panton Black Caps';
+	src: url('../fonts/Panton-BlackCaps.eot');
+	src: url('../fonts/Panton-BlackCaps.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Panton-BlackCaps.woff2') format('woff2'),
+		url('../fonts/Panton-BlackCaps.woff') format('woff'),
+		url('../fonts/Panton-BlackCaps.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Panton Light Caps';
+	src: url('../fonts/Panton-LightCaps.eot');
+	src: url('../fonts/Panton-LightCaps.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Panton-LightCaps.woff2') format('woff2'),
+		url('../fonts/Panton-LightCaps.woff') format('woff'),
+		url('../fonts/Panton-LightCaps.ttf') format('truetype'),
+		url('../fonts/Panton-LightCaps.svg#Panton-LightCaps') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+body{
+	background-color: #fff;
+	font-family: 'Panton Light Caps';
+}
+.text-center{
+	text-align: center;
+}
+.header-top{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Panton Black Caps';
+	&-info{
+		float: left;
+	}
+	&-phone{
+		float:right;
+		a{
+			text-decoration: none;
+			color: #000;
+			padding: 10px;
+			border:2px solid #000;
+			border-radius: 10px;
+			&:hover{
+				color: #fff;
+				border:2px solid #000;
+				border-radius: 10px;
+				background-color: #000;
+
+			}
+		
+		}
+	}
+}
+.header-menu{
+	background-color: #292d30;
+	&-nav {
+			margin-bottom: 3rem;
+			li{
+			display: inline-block;
+			margin-right: 30px;
+				a{
+					text-decoration: none;
+					color: #fff;
+					text-transform: uppercase;
+					font-size:20px;
+					&:hover{
+						color: #059feb;
+					}
+
+				}
+			}
+	}
+
+}
+.header-main{
+		background: url(../img/bg.jpg) no-repeat center center;
+		margin-top: -20px;
+		padding-bottom: 6rem;
+		color: #fff;
+		&-text{
+			padding-top: 60px;
+			h1{
+				font-size: 50px;
+				letter-spacing: 5px;
+				
+			}
+			img{
+				position: relative;
+				right: -121px;
+			}
+		}
+		&-btn{
+			a{
+				text-decoration: none;
+				color: #fff;
+				background-color: #059feb;
+				padding: 10px 30px;
+				border-radius: 50px;
+			}
+
+		}
+
+}
+.task{
+	margin-top: 3rem;
+	&_text-block{
+		h3{
+			border-bottom: 2px solid #059feb;
+		}
+	}
+	&_box{
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+}
