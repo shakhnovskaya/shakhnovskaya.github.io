@@ -51,9 +51,13 @@
       tab.click(function(){
         var target = $(this).attr('href');
         console.log('эта ссылка ведет на' + target);
-        $('.content').hide();
-        $(target).show();
-
+        if($(target).is(':visible')) {
+          $(target).hide();
+          }
+        else {
+          $('.content').hide();
+          $(target).show();
+        }
       });
     });
   </script>
