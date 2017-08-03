@@ -1,0 +1,19 @@
+body {
+  background: url('../img/bg.jpeg') no-repeat;
+  background-size: 100vw;
+}
+.btn-primary {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+}
+.btn-primary:focus {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.btn-primary img {
+  width: 150px;
+}
