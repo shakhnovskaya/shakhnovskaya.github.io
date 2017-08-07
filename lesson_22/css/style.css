@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg.jpg) no-repeat;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+}
+.container {
+  background-color: #fff;
+}
+.form {
+  margin: 10rem;
+}
+.form img {
+  margin-top: 17rem;
+}
+.form_text {
+  width: 40rem;
+}
+.form h4 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10rem;
+}
+.form p {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.form .question {
+  margin-top: 0;
+  margin-bottom: 5rem;
+  text-align: left;
+}
+.form .question a {
+  color: #f69a7a;
+}
+.form .question a:hover {
+  text-decoration: none;
+  text-shadow: 2px 0px 2px rgba(150, 150, 150, 0.85);
+}
+form {
+  display: block;
+  height: 40rem;
+  width: 35rem;
+  padding: 10px;
+}
+form span {
+  margin-right: 1rem;
+}
+form input {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border: none;
+}
+form .input_form {
+  border-bottom: 1px solid #7b7b7b;
+  width: 33rem;
+  color: #7b7b7b;
+  text-align: left;
+}
+form .btn {
+  background-color: #82c5c3;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 24px;
+  padding: 13px 34px;
+  margin-top: 5rem;
+}
+form .btn:hover {
+  color: #82c5c3;
+  border: 2px solid #82c5c3;
+  background-color: #fff;
+}
+.error {
+  border: 1px solid red;
+}
+label.error {
+  border: none;
+  color: red;
+}
+.thanks {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 30rem;
+}
