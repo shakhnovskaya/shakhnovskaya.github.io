@@ -46,7 +46,7 @@
 		</div>
         
 	</section>
-    <!--modals 
+     
         <div class="modal fade" id="modal-thanks" data-backdrop="true" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-sm" role="document">
                 <div class="modal-content">
@@ -62,11 +62,12 @@
                     </div>
                 </div>  
             </div>
-        </div>-->
+        </div>
     
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-    <!-- <script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
     $("#form").validate({
             rules:{
                 name: {
@@ -99,7 +100,7 @@
                 }
             }
         });
-    </script>-->
+    </script>
     <script>
        $(document).ready(function() {
 
@@ -110,7 +111,7 @@
             data: $(this).serialize()
         }).done(function() {
             $(this).find("input").val("");
-            alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+            $('#modal-thanks').modal('show');
             $("#form").trigger("reset");
         });
         return false;
