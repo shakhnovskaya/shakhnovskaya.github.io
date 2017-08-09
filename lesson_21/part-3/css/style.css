@@ -1,0 +1,107 @@
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: url(../img/bg.jpg) no-repeat;
+  hight: 100vh;
+  color: #fff;
+}
+header .logo {
+  margin-top: 15%;
+}
+header .text {
+  margin-top: 25%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+header .text h1 {
+  font-size: 68px;
+}
+header .nav {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+header .nav li {
+  display: inline-block;
+  margin-right: 35px;
+}
+header .nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-style: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+section .content-text {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  text-align: center;
+}
+section .content-text h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+section .content-text p {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+section .content-img img {
+  width: 550px;
+}
+section .content-info {
+  font-size: 68px;
+  font-weight: bold;
+}
+section .content-info_img {
+  width: 600px;
+  position: relative;
+  top: -25rem;
+}
+section .content-info p {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 10rem;
+}
+section .content-info p span {
+  color: #e98457;
+}
+section .content-info .circle-1 {
+  position: relative;
+  left: 35rem;
+  bottom: 9rem;
+}
+section .content-info .circle-2 {
+  position: relative;
+  left: 65rem;
+  bottom: 5rem;
+}
+section .content-info .trigon {
+  position: relative;
+  right: 45rem;
+  bottom: 5rem;
+}
+.slider .slide {
+  margin-bottom: 5rem;
+}
+.slider .slide img {
+  width: 250px;
+}
+.footer {
+  padding-top: 3rem;
+  background-color: #fafafa;
+}
+.footer-nav-item {
+  display: inline-block;
+  padding-top: 2rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+.footer-nav-item a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}

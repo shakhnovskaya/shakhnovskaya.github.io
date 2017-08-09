@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Lesson_21-1</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    	<div class="header">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-6">
+    					<div class="header-logo">
+    						<img src="img/logo.png" alt="">
+    					</div>
+    				</div>
+    				<div class="col-md-6">
+    					<div class="header-nav">
+    						<ul>
+    							<li class="header-nav_item"><a href="#">how it works</a></li>
+    							<li class="header-nav_item"><a href="#">about us</a></li>
+    							<li class="header-nav_item"><a href="#">contact us</a></li>
+    							<li class="header-nav_item"><a href="#">blog</a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+    <section>
+    	<div class="main">
+    		<div class="container">
+    			<div class="row">
+    			<div class="col-md-12" id="scene">
+							  <div class="layer" data-depth="0.20"><img src="img/cloud-1.png" style="transform: translateX(10rem) translateY(8rem);"></div>
+							  <div class="layer" data-depth="0.30"><img src="img/cloud-2.png" style="transform: translateX(110rem) translateY(7rem);"></div>
+							  <div class="layer" data-depth="0.60"><img src="img/cloud-3.png" style="transform: translateX(12rem) translateY(45rem);"></div>
+							  <div class="layer" data-depth="0.80"><img src="img/cloud-4.png" style="transform: translateX(115rem) translateY(50rem);"></div>
+					</div>
+    				<div class="col-md-6">
+    					<div class="main-text">
+    						<h1>track your next fuel shops</h1>
+    						<p>Monitor and Alert on all petroll bunks near to you</p>
+    					</div>
+    					<div class="main-form">
+    						<p>Signup For <span>free</span></p>
+    						<form action="#">
+    							<input type="text" placeholder="Your E-mail Adress">
+    							<button>signup</button>
+    						</form>	    						
+    					</div>
+    				</div>
+    				<div class="col-md-6">
+    					<div class="main-img text-right">
+    						<img src="img/phone.png" alt="">
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="partners">
+    				<ul>
+    					<li><img src="img/ever.png" alt=""></li>
+    					<li><img src="img/firefox.png" alt=""></li>
+    					<li><img src="img/google.png" alt=""></li>
+    					<li><img src="img/microsoft.png" alt=""></li>
+    					<li><img src="img/sony.png" alt=""></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$('#scene').parallax();
+    	});
+    </script>
+  </body>
+</html>

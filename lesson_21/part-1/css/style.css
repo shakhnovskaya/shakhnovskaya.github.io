@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.header {
+  margin: 10px 0px;
+}
+.header-logo {
+  margin: 10px;
+}
+.header-nav {
+  margin-top: 2rem;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.header-nav_item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.header-nav_item a:hover {
+  text-decoration: none;
+  color: #65a8d7;
+}
+.main {
+  background-color: #65a8d7;
+  color: #fff;
+}
+.main-text {
+  margin-top: 10rem;
+}
+.main-text h1 {
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-text p {
+  font-size: 24px;
+  font-style: italic;
+}
+.main-img {
+  margin-top: 2rem;
+}
+.main-img img {
+  width: 430px;
+}
+.main-form {
+  margin-top: 5rem;
+}
+.main-form p {
+  font-style: normal;
+  font-size: 16px;
+}
+.main-form p span {
+  background-color: #ffce54;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.main-form input {
+  border: none;
+  height: 5rem;
+  width: 45rem;
+  border-radius: 5px;
+}
+.main-form button {
+  border: none;
+  background-color: #77c344;
+  padding: 13px 29px;
+  border-radius: 5px ;
+}
+.partners li {
+  display: inline-block;
+  margin: 3rem;
+}
